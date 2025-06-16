@@ -1,0 +1,53 @@
+2025-06-16 16:59:34,313 INFO c.a.c.ChessApplication [main] Starting Chess Application
+2025-06-16 16:59:35,033 INFO o.s.b.StartupInfoLogger [main] Starting ChessApplication using Java 17.0.7 with PID 57959 (/Users/bootnext-mac-46/Downloads/com.technogise/target/classes started by bootnext-mac-46 in /Users/bootnext-mac-46/Downloads/com.technogise)
+2025-06-16 16:59:35,035 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.5.0, Spring v6.2.7
+2025-06-16 16:59:35,037 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2025-06-16 16:59:36,308 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8090 (http)
+2025-06-16 16:59:36,320 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8090"]
+2025-06-16 16:59:36,323 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2025-06-16 16:59:36,323 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-16 16:59:36,632 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2025-06-16 16:59:36,634 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1501 ms
+2025-06-16 16:59:37,305 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8090"]
+2025-06-16 16:59:37,451 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8090 (http) with context path '/'
+2025-06-16 16:59:37,472 INFO o.s.b.StartupInfoLogger [main] Started ChessApplication in 3.048 seconds (process running for 4.753)
+2025-06-16 16:59:37,480 INFO c.a.c.ChessApplication [main] Chess Application initialized successfully
+2025-06-16 16:59:37,481 INFO c.a.c.ChessApplication [main] Enter piece type and position (e.g. King, D5):
+2025-06-16 16:59:50,080 DEBUG c.a.c.ChessApplication [main] Received input: Queen,D4
+2025-06-16 16:59:50,091 DEBUG c.a.c.ChessApplication [main] Parsed input - Piece Type: Queen, Position: D4
+2025-06-16 16:59:50,097 INFO c.a.c.ChessApplication [main] Processing moves for QUEEN at position com.assignment.chess.model.Position@7da31a40
+2025-06-16 16:59:50,103 DEBUG c.a.c.s.ChessService [main] Calculating possible moves for QUEEN at position D4
+2025-06-16 16:59:50,105 DEBUG c.a.c.s.ChessService [main] Processing QUEEN movement
+2025-06-16 16:59:50,105 DEBUG c.a.c.s.ChessService [main] Added valid move for QUEEN: D5
+2025-06-16 16:59:50,105 DEBUG c.a.c.s.ChessService [main] Added valid move for QUEEN: D6
+2025-06-16 16:59:50,106 DEBUG c.a.c.s.ChessService [main] Added valid move for QUEEN: D7
+2025-06-16 16:59:50,108 DEBUG c.a.c.s.ChessService [main] Added valid move for QUEEN: D8
+2025-06-16 16:59:50,109 DEBUG c.a.c.s.ChessService [main] Added valid move for QUEEN: D3
+2025-06-16 16:59:50,109 DEBUG c.a.c.s.ChessService [main] Added valid move for QUEEN: D2
+2025-06-16 16:59:50,110 DEBUG c.a.c.s.ChessService [main] Added valid move for QUEEN: D1
+2025-06-16 16:59:50,110 DEBUG c.a.c.s.ChessService [main] Added valid move for QUEEN: C4
+2025-06-16 16:59:50,110 DEBUG c.a.c.s.ChessService [main] Added valid move for QUEEN: B4
+2025-06-16 16:59:50,110 DEBUG c.a.c.s.ChessService [main] Added valid move for QUEEN: A4
+2025-06-16 16:59:50,110 DEBUG c.a.c.s.ChessService [main] Added valid move for QUEEN: E4
+2025-06-16 16:59:50,110 DEBUG c.a.c.s.ChessService [main] Added valid move for QUEEN: F4
+2025-06-16 16:59:50,110 DEBUG c.a.c.s.ChessService [main] Added valid move for QUEEN: G4
+2025-06-16 16:59:50,111 DEBUG c.a.c.s.ChessService [main] Added valid move for QUEEN: H4
+2025-06-16 16:59:50,111 DEBUG c.a.c.s.ChessService [main] Added valid move for QUEEN: C5
+2025-06-16 16:59:50,111 DEBUG c.a.c.s.ChessService [main] Added valid move for QUEEN: B6
+2025-06-16 16:59:50,111 DEBUG c.a.c.s.ChessService [main] Added valid move for QUEEN: A7
+2025-06-16 16:59:50,111 DEBUG c.a.c.s.ChessService [main] Added valid move for QUEEN: E5
+2025-06-16 16:59:50,111 DEBUG c.a.c.s.ChessService [main] Added valid move for QUEEN: F6
+2025-06-16 16:59:50,111 DEBUG c.a.c.s.ChessService [main] Added valid move for QUEEN: G7
+2025-06-16 16:59:50,111 DEBUG c.a.c.s.ChessService [main] Added valid move for QUEEN: H8
+2025-06-16 16:59:50,112 DEBUG c.a.c.s.ChessService [main] Added valid move for QUEEN: C3
+2025-06-16 16:59:50,112 DEBUG c.a.c.s.ChessService [main] Added valid move for QUEEN: B2
+2025-06-16 16:59:50,112 DEBUG c.a.c.s.ChessService [main] Added valid move for QUEEN: A1
+2025-06-16 16:59:50,112 DEBUG c.a.c.s.ChessService [main] Added valid move for QUEEN: E3
+2025-06-16 16:59:50,112 DEBUG c.a.c.s.ChessService [main] Added valid move for QUEEN: F2
+2025-06-16 16:59:50,112 DEBUG c.a.c.s.ChessService [main] Added valid move for QUEEN: G1
+2025-06-16 16:59:50,112 INFO c.a.c.s.ChessService [main] Found 27 valid moves for QUEEN at D4
+2025-06-16 16:59:50,113 INFO c.a.c.ChessApplication [main] Found 27 possible moves for QUEEN at com.assignment.chess.model.Position@7da31a40
+2025-06-16 16:59:50,114 DEBUG c.a.c.ChessApplication [main] Possible moves: D5, D6, D7, D8, D3, D2, D1, C4, B4, A4, E4, F4, G4, H4, C5, B6, A7, E5, F6, G7, H8, C3, B2, A1, E3, F2, G1
+2025-06-16 16:59:50,114 INFO c.a.c.ChessApplication [main] Chess Application shutting down
+2025-06-16 16:59:56,944 INFO o.s.b.w.e.t.GracefulShutdown [SpringApplicationShutdownHook] Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-16 16:59:56,959 INFO o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
